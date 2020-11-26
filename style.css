@@ -1,0 +1,104 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu li {
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+    .menu li a {
+        color: #8B00FF;
+    }
+
+    .heading{
+       color: black;
+       font-size: 18px;
+       font-weight:400;
+       background-color:#eaeaea;
+    }
+    .sh{
+        color:#707070;
+        font-size:14px;
+        font-style:italic;
+        line-height:16px;
+    }
+    .full{
+        color:#484343;
+        font-size:16px;
+        font-weight:400;
+        line-height:24px;
+        text-align:left;
+    }
+    .spec{
+        color:#474b4e;
+        font-size:16px;
+        font-style:oblique;
+        text-align:left;
+
+    }
+    
+
+
+
+    .table,tr,td{
+        border:2px black;
+    }
+
+
+
+.menu li a:hover {
+    color: #1896FF;
+}
+
+.menu li a:active {
+    color: red;
+}
+
+.menu .new:after {
+    content: " new";
+    color: blue;
+}
+
+.container {
+    
+    
+    color: black;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    font-style: oblique;
+}
+
+.header {
+    background-color: antiquewhite;
+    height: 400px;
+}
+    .header ul {
+        float: right;
+        margin: 0; /* Обнуляем значение отступов */
+        padding: 4px; /* Значение полей */
+    }
+    .header li {
+        float: right;
+        display: inline; /* Отображать как строчный элемент */
+        margin-right: 5px; /* Отступ слева */
+        border: 1px solid #000; /* Рамка вокруг текста */
+        padding: 3px; /* Поля вокруг текста */
+    }
+    .header img {
+        border: 2px solid #9f6b27;
+        margin-left:55px;
+    }
+
+.footer {
+    background-color: #707070;
+    height: 70px;
+    
+    
+    bottom: 0;
+    width: 100%;
+    
+}
+
